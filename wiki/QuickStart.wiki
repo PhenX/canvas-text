@@ -23,5 +23,17 @@ The needed face files will be downloaded when needed via Ajax and parsed on the 
  * the spaces in the font family name must be replaced by underscores (`_`)
  * be placed in the `faces` folder next to the canvas.text.js file.
 
+==Options==
+The implementation can be customized thanks to a few options :
+ * "reimplement": override the built-in text functions by the ones provided by the lib.
+ * "dontUseMoz": don't use the Mozilla text functions in Firefox 3.0.
+ * "fallbackCharacter": the character used when a character is not in the font face file.
+ * "debug": used when debugging, it does nothing for now.
+
+These options can be defined by adding HTTP params to the `canvas.text.js` include: 
+{{{
+<script type="text/javascript" src="canvas.text.js?reimplement=true&debug=true"></script>
+}}}
+
 ==Use the text functions==
 Now the libraries are included, the only thing you have to do is to use the text functions, as they are specified on the [http://www.whatwg.org/specs/web-apps/current-work/multipage/the-canvas-element.html#text WHATWG specification page].
