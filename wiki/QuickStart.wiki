@@ -6,7 +6,7 @@ This library is intended to be very simple, but you can customize it a little bi
 ==Include the right files=
 For this library to work the best it can, you'll need 3 files :
  * The library itself
- * The ExCanvas library if you want it to be available to Internet Explorer 6+ users
+ * The !ExCanvas library if you want it to be available to Internet Explorer 6+ users
  * At least one font face file: they contain the font glyphs coordinates. They can be found [http://typeface.neocracy.org/ on the typeface.js website] or [http://www.madasplayground.com/fonts/ here (lots of fonts !)].
 
 {{{
